@@ -12,23 +12,14 @@ class Game:
     def create_wall(self):
         return Wall()
 
-    
-    #def create_door(self, side1, side2, opened):
 
-    
-#        door = Door()
-
-
-#        door.open=opened
-
-
-#        door.side1 = side1
-
-
-#        door.side2 = side2 
-
-
-#        return door
+    # Otra forma para el método create_door, pero no me funciona todavía
+    # def create_door(self, side1, side2, opened):
+    #        door = Door()
+    #        door.open=opened
+    #        door.side1 = side1
+    #        door.side2 = side2 
+    #        return door
 
     
     def create_door(self, side1, side2):
