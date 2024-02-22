@@ -3,11 +3,15 @@
 
 
 class Game:
+
+
     def __init__(self):
         self.maze = None
+
         
     def create_wall(self):
         return Wall()
+
     
     #def create_door(self, side1, side2, opened):
 #        door = Door()
